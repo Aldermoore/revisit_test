@@ -92,7 +92,7 @@ function isParticipantData(obj: unknown): obj is ParticipantData {
 export class FirebaseStorageEngine extends StorageEngine {
   private RECAPTCHAV3TOKEN = import.meta.env.VITE_RECAPTCHAV3TOKEN;
 
-  private firestore: Firestore;
+  public firestore: Firestore; // My little change to get access to firestore to store additional data. There is probably a 'correct' way to do this..
 
   private collectionPrefix = import.meta.env.DEV ? 'dev-' : 'prod-';
 
