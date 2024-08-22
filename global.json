@@ -15,9 +15,13 @@
         "demo-image",
         "test-randomization",
         "test-skip-logic",
-        "test-parser-errors"
+        "test-parser-errors", 
+        "visualization-complexity"
     ],
     "configs": {
+        "visualization-complexity": {
+            "path": "visualization-complexity/config.json"
+        },
         "demo-html": {
             "path": "demo-html/config.json"
         },
