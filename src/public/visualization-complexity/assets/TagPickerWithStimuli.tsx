@@ -189,7 +189,7 @@ function Picker({ parameters, setAnswer }: { parameters: any, setAnswer: any }) 
     return menu;
   };
 
-  let imgPath = '/visualization-complexity/assets/stimuli/stimulus';
+  let imgPath = '/revisit_test/visualization-complexity/assets/stimuli/stimulus';
   imgPath = imgPath.concat(stimuli);
   imgPath = imgPath.concat('.jpg');
   return (
