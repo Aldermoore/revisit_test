@@ -1,6 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v1.0.2/src/parser/GlobalConfigSchema.json",
     "configsList": [
+        "visualization-complexity",
         "demo-html",
         "demo-cleveland",
         "demo-brush-interactions",
@@ -15,8 +16,7 @@
         "demo-image",
         "test-randomization",
         "test-skip-logic",
-        "test-parser-errors", 
-        "visualization-complexity"
+        "test-parser-errors"
     ],
     "configs": {
         "visualization-complexity": {
